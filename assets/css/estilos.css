@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* .initial {
+  background-image: url(assets/img/fondo-lyft.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+} */
+
+.logo-blanco {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.fondo {
+  /*border: 0.2em solid red;*/
+  background-image: url(../img/bg.jpg);
+  /*height: 100vh;*/
+  background-position: center center;
+  width: 100vw;
+  background-size: cover;
+}
+
+.logo-compuesto {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  /* border: 1em solid green; */
+  display: inline-block;
+  padding: !important;
+  margin: 0;
+}
+
+.jumbotron a {
+  background-color: #FF00BF;
+  border: none;
+}
+
+.jumbotron p {
+  text-align: center;
+  padding: !important;
+  width: 60%;
+}
+
+.container .jumbotron {
+  padding: !important;
+  margin: 0;
+}
